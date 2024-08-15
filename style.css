@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    padding-top: 16px;
+    min-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.header__title {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    margin-right: 566px;
+}
+.header__menu {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    padding: 6px 0px;
+}
+.header__text {
+    color: #4b5563;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    transition: 0.1s;
+}
+
+/* hero */
+
+.hero {
+    padding: 96px 80px;
+}
+.hero__title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 72px;
+}
+.hero__text {
+    width: 768px;
+    height: 72px;
+    color: #4b5563;
+    line-height: 24px;
+    margin-bottom: 48px;
+}
+.hero__comment {
+}
+.hero__location {
+    color: #4b5563;
+    margin-bottom: 8px;
+}
+.hero__projects {
+    color: #4b5563;
+    margin-bottom: 48px;
+}
+
+.hero__icons {
+    display: flex;
+    gap: 15px;
+}
+
+.hero__icon {
+    font-size: 24px;
+    color: #4b5563;
+    cursor: pointer;
+}

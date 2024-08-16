@@ -14,7 +14,7 @@ body {
 
 header {
     padding-top: 16px;
-    min-width: 1200px;
+
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -35,11 +35,12 @@ header {
     font-size: 30px;
     line-height: 36px;
     margin-right: 566px;
+    cursor: pointer;
 }
 .header__menu {
     list-style: none;
     display: flex;
-    gap: 24px;
+    gap: 5px;
     padding: 6px 0px;
 }
 .header__text {
@@ -48,7 +49,22 @@ header {
     font-size: 16px;
     line-height: 24px;
     text-decoration: none;
-    transition: 0.1s;
+    transition: 0.2s;
+    padding: 10px 14px;
+    border-radius: 8px;
+}
+
+.header__text:hover {
+    border: 1px solid rgb(150, 244, 245);
+
+    color: rgb(98, 220, 222);
+    opacity: 100%;
+    transition: 0.2s;
+}
+
+.header__contact {
+    color: #4b5563;
+    border: 1px solid #4b5563;
 }
 
 /* hero */
@@ -56,11 +72,21 @@ header {
 .hero {
     padding: 96px 80px;
 }
+
+.hero__card {
+    display: flex;
+}
+
+.hero__cards {
+    margin-right: 128px;
+}
+
 .hero__title {
     font-weight: 700;
     font-size: 50px;
     line-height: 72px;
 }
+
 .hero__text {
     width: 768px;
     height: 72px;
@@ -88,4 +114,15 @@ header {
     font-size: 24px;
     color: #4b5563;
     cursor: pointer;
+}
+
+.hero__image {
+    background-image: url(images/hero-image.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 280px;
+    height: 320px;
+
+    display: inline-block;
 }

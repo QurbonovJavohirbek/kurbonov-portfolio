@@ -23,8 +23,10 @@ body {
 }
 header {
     padding-top: 16px;
+    padding-bottom: 16px;
     margin-left: auto;
     margin-right: auto;
+    background-color: #fff;
 }
 
 .wrapper {
@@ -58,8 +60,11 @@ header {
         color: transparent;
     }
 }
-
+.header__burger {
+    display: none;
+}
 nav {
+    display: block;
     position: relative;
     top: 10px;
 }
@@ -71,6 +76,7 @@ nav ul {
     & li {
         list-style: none;
         margin-left: 30px;
+        color: #4b5563;
 
         & a {
             text-decoration: none;
@@ -245,6 +251,9 @@ nav ul {
 }
 
 /* skills-page */
+.skills__mobile {
+    display: none;
+}
 
 .skills__page {
     padding-top: 96px;
@@ -299,8 +308,15 @@ nav ul {
 }
 
 /* experience-page */
+.laptop__exp-page {
+    background-color: #f9fafb;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    display: block;
+}
 
-.experience-page {
+.mobile__exp-page {
+    display: none;
     background-color: #f9fafb;
     padding-top: 96px;
     padding-bottom: 96px;
@@ -326,8 +342,7 @@ nav ul {
     color: #4b5563;
     margin-bottom: 48px;
 }
-.experience-cards {
-}
+
 .first__exp-card {
     box-shadow: 0px 2px 2px 0px #0000000f;
     box-shadow: 0px 4px 3px 0px #00000012;
@@ -477,9 +492,12 @@ nav ul {
     margin-bottom: 48px;
 }
 .work__cards {
+    display: block;
 }
-
-/* first worl card */
+.work__cards-mobile {
+    display: none;
+}
+/* first work card */
 
 .first__work-card {
     box-shadow: 0px 2px 2px 0px #0000000f;
@@ -510,8 +528,8 @@ nav ul {
     margin-bottom: 24px;
 }
 .right__work-text {
+    display: block;
     color: #4b5563;
-    width: 480px;
     height: 96px;
 }
 

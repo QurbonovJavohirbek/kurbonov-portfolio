@@ -2,6 +2,9 @@
     .wrapper {
         max-width: 343px;
     }
+    body {
+        margin: 0px;
+    }
 
     /* header */
     header {
@@ -9,6 +12,7 @@
     }
     .mobile__header {
         display: block;
+        background-color: #fff;
     }
 
     .header__title {
@@ -645,7 +649,7 @@
         }
     }
     .footer__number {
-        width: 332px;
+        width: 320px;
         margin-bottom: 24px;
         position: relative;
         left: 60px;

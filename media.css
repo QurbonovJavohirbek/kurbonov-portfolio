@@ -1,28 +1,28 @@
 @media (max-width: 426px) {
     .wrapper {
-        width: 343px;
+        max-width: 343px;
     }
 
     /* header */
     header {
-        padding: 16px;
-        background-color: #fff;
+        display: none;
+    }
+    .mobile__header {
+        display: block;
     }
 
     .header__title {
         font-weight: 700;
         font-size: 30px;
         line-height: 36px;
-        margin-right: 0px;
+        width: 150px;
+        display: inline-block;
+        margin-right: 150px;
     }
     nav {
         display: none;
     }
-    .header__burger {
-        display: block;
-        width: 24px;
-        height: 24px;
-    }
+
     /* hero */
     .hero {
         padding: 64px 0;
@@ -104,7 +104,9 @@
         margin-bottom: 48px;
         margin-left: 31px;
     }
-
+    .first__page-img:hover {
+        scale: 1;
+    }
     .first__text-title {
         font-weight: 600;
         font-size: 24px;

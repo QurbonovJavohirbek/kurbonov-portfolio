@@ -22,13 +22,16 @@ body {
     background-color: #e5e7eb;
 }
 header {
+    display: block;
     padding-top: 16px;
     padding-bottom: 16px;
     margin-left: auto;
     margin-right: auto;
     background-color: #fff;
 }
-
+.mobile__header {
+    display: none;
+}
 .wrapper {
     max-width: 1200px;
     margin: 0 auto;
@@ -60,9 +63,7 @@ header {
         color: transparent;
     }
 }
-.header__burger {
-    display: none;
-}
+
 nav {
     display: block;
     position: relative;
